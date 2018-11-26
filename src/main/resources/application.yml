@@ -26,7 +26,7 @@ spring:
         name: egp.co.id
 eureka:
     instance:
-        hostname: https://egp-app.herokuapp.com
+        hostname: localhost
     client:
         serviceUrl:
             defaultZone: https://eureka-cloud.herokuapp.com/eureka/
