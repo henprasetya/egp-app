@@ -25,6 +25,9 @@ spring:
     application:
         name: egp.co.id
 eureka:
+    instance:
+        hostname: https://egp-app.herokuapp.com
+        nonSecurePort: 80
     client:
         serviceUrl:
             defaultZone: https://eureka-cloud.herokuapp.com/eureka/
