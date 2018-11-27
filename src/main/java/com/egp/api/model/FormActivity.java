@@ -34,6 +34,7 @@ public class FormActivity {
     String userCreateCode = "";
     String userCreateName = "";
     Date createDate = new Date();
+    String type = "";
 
     public String getActivityId() {
         return activityId;
@@ -161,6 +162,14 @@ public class FormActivity {
 
     public void setCreateDate(Date createDate) {
         this.createDate = createDate;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
     
 }
